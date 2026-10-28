@@ -9,15 +9,15 @@ package br.edu.ifba.dados.validacao;
  * @author alan
  */
 public class PesquisadoraAreaAtuacao {
-    private int idAreaAtuacao;	
+    private String idAreaAtuacao;	
     private String nomeArea;	
     private String descricao;
 
-    public int getIdAreaAtuacao() {
+    public String getIdAreaAtuacao() {
         return idAreaAtuacao;
     }
 
-    public void setIdAreaAtuacao(int idAreaAtuacao) {
+    public void setIdAreaAtuacao(String idAreaAtuacao) {
         this.idAreaAtuacao = idAreaAtuacao;
     }
 
