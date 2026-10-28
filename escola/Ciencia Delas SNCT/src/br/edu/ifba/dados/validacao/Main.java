@@ -15,7 +15,7 @@ public class Main{
     public static void main(String[] args) {
 
         try {
-            Validacao registro = new Pesquisadora(null, "Marie Curie", null, null, "Pesquisadora", "I001", null);
+            Validacao registro = new Pesquisadora("dejshfejkshfuioshfo", "Marie Curie", null, null, "Pesquisadora", "I001", null);
 
             registro.validar();
 
